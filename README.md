@@ -51,21 +51,6 @@ Pipeline przetwarza dane sprzedażowe e-commerce (np. z [UCI Online Retail Datas
 
 ---
 
-## Struktura projektu
-
-```
-ecommerce-etl/
-│
-├── etl.py                # Główny skrypt pipeline'u
-├── data.csv              # Surowe dane wejściowe (nie dołączone do repo)
-├── rejected_data.csv     # Generowane automatycznie — log odrzuconych wierszy
-├── .env                  # Zmienne środowiskowe (nie dołączone do repo)
-├── .env.example          # Przykładowy plik środowiskowy
-├── requirements.txt      # Zależności Pythona
-└── README.md
-```
-
----
 
 ## Wymagania
 
