@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 import pandas as pd
 import os
 from dotenv import load_dotenv
@@ -86,8 +83,6 @@ def save_to_db(df_customers, df_products, df_orders):
     except Exception as e:
         print(f"Wystąpił błąd: {e}")
 
-
-
 def run():
 
     df = load_raw_data('data.csv')
@@ -107,7 +102,3 @@ def run():
 
 if __name__ == '__main__':
     run()
-
-
-# df.isna().sum()
-
