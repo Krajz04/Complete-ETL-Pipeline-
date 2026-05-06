@@ -97,9 +97,7 @@ DB_PORT=5432
 DB=ecommerce_db
 ```
 
-> ⚠️ Nigdy nie commituj pliku `.env`. Jest już dodany do `.gitignore`.
 
----
 
 ## Uruchomienie
 
